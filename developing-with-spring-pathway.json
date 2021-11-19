@@ -1,0 +1,48 @@
+{
+    "title": "Developing with Spring and Spring Boot",
+    "icon": "fa-openshift",
+    "courses": [
+        {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/spring-getting-started",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "spring-getting-started",
+          "title": "Getting Started with Spring",
+          "description": "Basic Introduction to Spring on Red Hat OpenShift"
+        },
+        {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/spring-rest-services",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "spring-rest-services",
+          "title": "Spring REST",
+          "description": "RESTful applications using Spring Rest"
+        },
+        {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/spring-db-access",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "spring-db-access",
+          "title": "Spring Data with JPA/Hibernate",
+          "description": "Database Integration in Spring Boot on OpenShift"
+        },
+        {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/spring-messaging",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "spring-messaging",
+          "title": "Spring Messaging with Red Hat AMQ",
+          "description": "Modern Distributed microservices using Red Hat messaging"
+        },
+        {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/microservices-1",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "microservices-1",
+          "title": "Externalized Configuration",
+          "description": "Externalized Configuration"
+        },
+       {
+          "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/monitoring",
+          "pathway_id": "middleware/middleware-spring-boot",
+          "course_id": "monitoring",
+          "title": "Monitoring Spring Applications on OpenShift",
+          "description": "Using Spring monitoring tools on OpenShift to keep your applications healthy"
+        }
+    ]
+}

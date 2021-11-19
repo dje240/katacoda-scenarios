@@ -3,8 +3,8 @@
     "title": "Logging in to an OpenShift Cluster",
     "description": "",
     "pathwayTitle": "OpenShift",
-    "difficulty": "beginner",
-    "time": "5-10 minutes",
+    "сложность": "начальный",
+    "time": "5-10 минут",
     "backend": {
         "autoUpgrade": true,
         "imageid": "openshift-4-7"

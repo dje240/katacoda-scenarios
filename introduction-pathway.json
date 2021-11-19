@@ -5,46 +5,46 @@
     {
       "external_link": "https://learn.openshift.com/introduction/getting-started/",
       "course_id": "getting-started",
-      "title": "Getting Started with OpenShift for Developers"
+      "title": "Первые шаги в OpenShift для разработчиков"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/cluster-access/",
       "course_id": "cluster-access",
-      "title": "Logging in to an OpenShift Cluster"
+      "title": "Авторизация в кластере OpenShift"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/developing-with-odo/",
       "course_id": "developing-with-odo",
-      "title": "Developing with odo"
+      "title": "Разработка ПО при помощи команд OpenShift Do"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/deploying-images/",
       "course_id": "deploying-images",
-      "title": "Deploying Applications From Images"
+      "title": "Сборка приложений из образов"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/deploying-python/",
       "course_id": "deploying-python",
-      "title": "Deploying Applications From Source"
+      "title": "Сборка приложений из репозиториев"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/resource-objects/",
       "course_id": "resource-objects",
-      "title": "Using the CLI to Manage Resource Objects"
+      "title": "Управление ресурсами из командной строки"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/port-forwarding/",
       "course_id": "port-forwarding",
-      "title": "Connecting to a Database Using Port Forwarding"
+      "title": "Подключение базы данных с использованием виртуализации сетевых портов (Port Forwarding)"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/transferring-files/",
       "course_id": "transferring-files",
-      "title": "Transferring Files in and out of Containers"
+      "title": "Передача файлов в контейнере"
     },
     {
       "external_link": "https://learn.openshift.com/introduction/deploy-prometheus-grafana/",
-      "title": "How to set up Prometheus and Grafana on OpenShift",
+      "title": "Настройка мониторинга производительности на базе Prometheus и Grafana в OpenShift",
       "course_id": "deploy-prometheus-grafana"
     }
   ]

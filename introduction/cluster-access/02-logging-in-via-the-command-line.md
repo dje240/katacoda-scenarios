@@ -1,8 +1,8 @@
-The OpenShift web console provides a convenient method for quickly interacting with and viewing the state of applications you have deployed using OpenShift. Not everything you may want to do can be done through the web console. You will therefore also need to be familiar with using the OpenShift command line tool ``oc``.
+Веб-консоль OpenShift предоставляет удобные визуальные инструменты контроля производственного процесса. Однако не все задачи можно оперативно выполнить через неё. В любом случае понадобятся навыки работы с интерфейсом командной строки.
 
-In this course the embedded _Terminal_ provided to you already has ``oc`` installed so you do not need to download and install the ``oc`` client.
+В данном сценарии CLI доступен через терминал и устанавливать отдельный инструмент не нужно.
 
-If you were using a different OpenShift cluster and did not already have the ``oc`` command line tool, you can download it by following the links in the _Command Line Tools_ menu option of the web console.
+Если вы уже работаете с кластером OpenShift без CLI, вы можете скачать инструмент для доступа через веб-консоль к интерфейсу CLI здесь _Command Line Tools_ .
 
 ![Command Line Tools](../../assets/introduction/cluster-access-44/02-command-line-tools.png)
 

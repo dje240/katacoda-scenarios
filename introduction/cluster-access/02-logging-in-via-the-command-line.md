@@ -2,30 +2,29 @@
 
 В данном сценарии CLI доступен через терминал и устанавливать отдельный инструмент не нужно.
 
-Если вы уже работаете с кластером OpenShift без CLI, вы можете скачать инструмент для доступа через веб-консоль к интерфейсу CLI здесь _Command Line Tools_ .
+Если вы уже работаете с кластером OpenShift без CLI, вы можете скачать инструмент для доступа через веб-консоль к интерфейсу CLI в пункте _Command Line Tools_ .
 
 ![Command Line Tools](../../assets/introduction/cluster-access-44/02-command-line-tools.png)
 
-A link to details on where to get the command line tools was also shown on the initial welcome page when you first accessed the cluster when there were no projects.
+Ссылка на подробную информацию о том, где получить инструменты командной строки, также будет показана на начальной странице приветствия, когда вы впервые обращаетесь к кластеру.
 
-Once you get to the list of downloads, you would need to download the archive specific to your platform, extract the ``oc`` binary and install it.
+Как только вы перейдете к списку загрузок, вам нужно будет загрузить архив для вашей платформы, распаковать бинарный файл установить его.
 
-To login to the OpenShift cluster used for this course run in the terminal:
+Чтобы войти в кластер OpenShift, используемый для этого курса, запустите в терминале:
 
 ``oc login -u developer -p developer``{{execute}}
 
-You should see output similar to:
+Вы увидите следующий терминала:
 
 ```
 Authentication required for https://openshift:6443 (openshift)
 Login successful.
 
-You don't have any projects. You can try to create a new project, by running
+Так как созданных проектов ещё нет, создаем первый при помощи команды:
 
     oc new-project <projectname>
 ```
-
-Next, create a new project namespace:
+Далее задаём пространство имён (namespace):
 
 ``oc new-project myproject``{{execute}}
 

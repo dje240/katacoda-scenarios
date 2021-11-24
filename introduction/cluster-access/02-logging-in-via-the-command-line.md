@@ -28,21 +28,21 @@ Login successful.
 
 ``oc new-project myproject``{{execute}}
 
-You can list all the projects you currently have access to by running:
+Следующей командой можно вывести доступные нам проекты:
 
 ``oc get projects``{{execute}}
 
-Once logged in, you can verify what user you are logged in by running:
+Проверить пользователя, под которым мы сейчас "залогинились" можно командой:
 
 ``oc whoami``{{execute}}
 
-You can verify which server you are logged into by running:
+Также в целях безопасности важно проверить имя нашего текущего сервера:
 
 ``oc whoami --show-server``{{execute}}
 
-In the case of an external authentication service being used as the identity provider, the required steps are a bit different.
+Аутентификация при момощи внешнего провайдера требует дополнительных действий.
 
-If you login using ``oc login`` on the command line you will be presented with an error message similar to:
+При использовании команды ``oc login`` командная строка возвращает следующую ошибку:
 
 ```
 Login failed (401 Unauthorized)

@@ -14,7 +14,7 @@
 
 ``oc login -u developer -p developer``{{execute}}
 
-Вы увидите следующий терминала:
+Вы увидите следующий ответ терминала:
 
 ```
 Authentication required for https://openshift:6443 (openshift)

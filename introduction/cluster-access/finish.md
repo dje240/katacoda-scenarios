@@ -2,7 +2,7 @@ In this course you learned about how to log into an OpenShift cluster, as well a
 
 ## Продолжение курса в "Виртуальной школе"
 
-You can continue learning more about OpenShift and how to develop applications on the platform by completing other tutorials at [https://learn.openshift.com](https://learn.openshift.com?ref=learn-cluster-access).
+You can continue learning more about OpenShift and how to develop applications on the platform by completing other tutorials at [Основы OpenShift](https://sberbank-school.ru/programs/12621/item/680471).
 
 For developer-related resources about OpenShift, visit [https://developers.redhat.com/products/openshift/getting-started](https://developers.redhat.com/products/openshift/getting-started?ref=learn-cluster-access).
 

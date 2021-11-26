@@ -1,6 +1,6 @@
 In this course you learned about how to log into an OpenShift cluster, as well as how you can add other users as collaborators to your project.
 
-## Continue Learning
+## Продолжение курса в "Виртуальной школе"
 
 You can continue learning more about OpenShift and how to develop applications on the platform by completing other tutorials at [https://learn.openshift.com](https://learn.openshift.com?ref=learn-cluster-access).
 

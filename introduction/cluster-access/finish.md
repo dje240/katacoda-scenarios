@@ -7,7 +7,7 @@
 
 ### Запуск OpenShift на вашем ПК с помощью контейнеров CodeReady
 
-Контейнеры CodeReady позволяют запустить сконфигурированный кластер OpenShift 4 с минимальным потреблением ресурсов вашего ПК. cluster on your local machine. CodeReady поддерживают операционные системы Windows 10, macOS и Linux. Прочитать подробнее о контейнерах и загрузить их можно по ссылке:[https://developers.redhat.com/products/codeready-containers/overview](https://developers.redhat.com/products/codeready-containers/overview?ref=learn-cluster-access)
+Контейнеры CodeReady позволяют запустить сконфигурированный кластер OpenShift 4 с минимальным потреблением ресурсов вашего ПК. cluster on your local machine. CodeReady поддерживают операционные системы Windows 10, macOS и Linux. Прочитать подробнее о контейнерах и загрузить их можно по ссылке:      [https://developers.redhat.com/products/codeready-containers/overview](https://developers.redhat.com/products/codeready-containers/overview?ref=learn-cluster-access)
 
 ### Сравнение платформ OpenShift
 

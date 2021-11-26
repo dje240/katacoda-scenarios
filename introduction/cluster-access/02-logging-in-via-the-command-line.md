@@ -50,12 +50,12 @@ You must obtain an API token by visiting
   https://api.starter-us-east-1.openshift.com/oauth/token/request
 ```
 
-You would visit the link given, logging in first via the separate authentication service if necessary. You will then be redirected to a page which will give details of the login command to use. This will include an access token to authenticate you for the session.
+Необходимо пройти по специальной ссылке, если используется отдельный центр аутентификации. Как правило ссылка ведёт на страницу с деталями процедуры аутентификации. Запросы такого типа также могут возвращать электронный сертификат доступа для очередной сессии.
 
-Even in the case where user authentication is managed by the OpenShift cluster and user credentials are accepted, you can opt to instead use an access token. You can retrieve the command to run by manually entering the ``/oauth/token/request`` path against the URL for the cluster access endpoint.
+Даже при условии полного управления учётными записями на стороне OpenShift, можно дополнительно использовать токены. Для этого добавляется ``/oauth/token/request`` для URL доступа к кластеру.
 
-If you are already logged into the web console, you can also retrieve the details of the login command and access token by accessing the _Copy Login Command_ menu option under your login name.
+Если вы уже находитесь в веб-консоле, вы можете найти полную информацию о параметрах входа и скопировать её для терминала в пункте _Copy Login Command_ под именем учетной записи.
 
  ![Request Access Token](../../assets/introduction/cluster-access-44/02-login-access-token.png)
 
-Whichever mechanism you use to login from the command line using ``oc login``, the login will periodically expire and you will need to login again. The expiration period is typically 24 hours.
+Вне зависимости от механизма авторизации с использованием команды ``oc login``, время действия логина заканчивается и требуется повторная авторизация. Обычно это период 24 часа.

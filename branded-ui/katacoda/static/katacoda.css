@@ -76,7 +76,7 @@ body {
   .bg-gray-dark-circle * {
     color: inherit; }
   .bg-gray-dark-circle a {
-    color: #c3e87d; }
+    color: #7dc3e8; }
     .bg-gray-dark-circle a:hover, .bg-gray-dark-circle a:focus {
       color: #88c8ea; }
 
@@ -166,9 +166,9 @@ h2 {
         margin-left: auto;
         margin-right: auto; } }
   .masthead a {
-    color: #8fe87d; }
+    color: #7dc3e8; }
     .masthead a:hover, .masthead a:focus {
-      color: #44e912; }
+      color: #88c8ea; }
   .masthead.masthead-overview {
     background-image: none; }
     .masthead.masthead-overview .item {

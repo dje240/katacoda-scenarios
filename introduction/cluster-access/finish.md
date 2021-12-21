@@ -1,18 +1,19 @@
-В данном сценарии мы отработали процесс аутентификации пользователя, возможность добавления новых участников проекта для совместной работы.
+In this course you learned about how to log into an OpenShift cluster, as well as how you can add other users as collaborators to your project.
 
-## Продолжение курса в "Виртуальной школе"
+## Continue Learning
 
-Вернуться к изучению курса можно по ссылке: [Основы OpenShift](https://sberbank-school.ru/programs/12621/item/680471).
+You can continue learning more about OpenShift and how to develop applications on the platform by completing other tutorials at [https://learn.openshift.com](https://learn.openshift.com?ref=learn-cluster-access).
 
+For developer-related resources about OpenShift, visit [https://developers.redhat.com/products/openshift/getting-started](https://developers.redhat.com/products/openshift/getting-started?ref=learn-cluster-access).
 
-### Запуск OpenShift на вашем ПК с помощью контейнеров CodeReady
+### Run OpenShift Locally with CodeReady Containers
 
-Контейнеры CodeReady позволяют запустить сконфигурированный кластер OpenShift 4 с минимальным потреблением ресурсов вашего ПК. cluster on your local machine. CodeReady поддерживают операционные системы Windows 10, macOS и Linux. Прочитать подробнее о контейнерах и загрузить их можно по ссылке:      [https://developers.redhat.com/products/codeready-containers/overview](https://developers.redhat.com/products/codeready-containers/overview?ref=learn-cluster-access)
+CodeReady Containers allows you to run a minimal, pre-configured OpenShift 4 cluster on your local machine. The project supports Windows 10, macOS, and Linux.  To find out more or download CodeReady Containers, visit [https://developers.redhat.com/products/codeready-containers/overview](https://developers.redhat.com/products/codeready-containers/overview?ref=learn-cluster-access)
 
-### Сравнение платформ OpenShift
+### Compare Hosted, Managed, or On Premises OpenShift
 
-Red Hat OpenShift может быть представлен в нескольких вариантах: [https://www.openshift.com/try](https://www.openshift.com/try?ref=learn-cluster-access)
+Learn more about the different OpenShift platform variants here: [https://www.openshift.com/try](https://www.openshift.com/try?ref=learn-cluster-access)
 
-### Документация
+### Browse the Documentation
 
-Если вы хотите изучить OpenShift глубже, самая свежая документация располагается здесь: [https://docs.openshift.com/container-platform/latest](https://docs.openshift.com/container-platform/latest?ref=learn-cluster-access)
+If you want to learn about particular OpenShift concepts in more depth, visit the documentation: [https://docs.openshift.com/container-platform/latest](https://docs.openshift.com/container-platform/latest?ref=learn-cluster-access)

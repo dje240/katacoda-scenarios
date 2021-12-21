@@ -1,17 +1,16 @@
-## Задачи сценария
+## Goal
 
-Изучить процесс авторизации в OpenShift при помощи консоли и CLI.
+Learn how to log in to OpenShift with the web console and with the `oc` command line tool.
 
-## Содержание
+## Concepts
 
-* Авторизация и аутентификация пользователей на платформу OpenShift
-* Веб-консоль OpenShift
-* OpenShift CLI
-* Проекты и совместная работа
+* OpenShift user authentication and authorization basics
+* OpenShift Web Console
+* OpenShift `oc` tool
+* OpenShift Projects and collaboration
 
-## Описание
+## Use case
 
-Пользователь должен авторизоваться для любых действий в кластере OpenShift. Для совместной работы с проектом нам также необходимо авторизовать наших коллег.
-Таким образом мы сможем видеть изменения, которые они вносят в проект.
+You must log in to do anything on an OpenShift cluster. To collaborate on an OpenShift Project, you can authorize other users to see or modify resources in your Projects.
 
-Внимание! Автоматически созданный кластер будет остановлен через 60 мин. Успейте потренироваться со сценарием до этого времени.
+This OpenShift cluster will self-destruct in one hour.

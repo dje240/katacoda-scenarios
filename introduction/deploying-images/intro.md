@@ -1,16 +1,16 @@
-## Задача сценария
+## Goal
 
-Изучить методы создания приложения в OpenShift при помощи консоли управления и командной строки.
+Learn how to deploy an application on OpenShift with the web console and with the `oc` command line tool.
 
-## Содержание
+## Concepts
 
-* Создание приложения из имеющихся образов в кластере OpenShift
-* Топология приложений в OpenShift
-* Проекты и приложения в них
-* Работа с командой `new-app`
+* Deploying existing container images on an OpenShift cluster
+* OpenShift Web Console’s Topology view
+* OpenShift Projects and Applications
+* OpenShift `oc` tool’s `new-app` subcommand
 
-## Возможные кейсы использования
+## Use case
 
-Вы можете легко создавать контейнеризованные приложения из кластера при помощи образов OpenShift с возможностью управления ими, масштабирования и последующего мониторинга.
+You can deploy a container image on an OpenShift cluster to make the application easier to manage, scale, connect and monitor.
 
-Внимание! Учебный кластер OpenShift будет автоматически удален через 60 мин. Успейте выполнить сценарий до этого.
+This OpenShift cluster will self-destruct in one hour.

@@ -1,48 +1,49 @@
-Веб-консоль OpenShift предоставляет удобные визуальные инструменты контроля производственного процесса. Однако не все задачи можно оперативно выполнить через неё. В любом случае понадобятся навыки работы с интерфейсом командной строки.
+The OpenShift web console provides a convenient method for quickly interacting with and viewing the state of applications you have deployed using OpenShift. Not everything you may want to do can be done through the web console. You will therefore also need to be familiar with using the OpenShift command line tool ``oc``.
 
-В данном сценарии CLI доступен через терминал и устанавливать отдельный инструмент не нужно.
+In this course the embedded _Terminal_ provided to you already has ``oc`` installed so you do not need to download and install the ``oc`` client.
 
-Если вы уже работаете с кластером OpenShift без CLI, вы можете скачать инструмент для доступа через веб-консоль к интерфейсу CLI в пункте _Command Line Tools_ .
+If you were using a different OpenShift cluster and did not already have the ``oc`` command line tool, you can download it by following the links in the _Command Line Tools_ menu option of the web console.
 
 ![Command Line Tools](../../assets/introduction/cluster-access-44/02-command-line-tools.png)
 
-Ссылка на подробную информацию о том, где получить инструменты командной строки, также будет показана на начальной странице приветствия, когда вы впервые обращаетесь к кластеру.
+A link to details on where to get the command line tools was also shown on the initial welcome page when you first accessed the cluster when there were no projects.
 
-Как только вы перейдете к списку загрузок, вам нужно будет загрузить архив для вашей платформы, распаковать бинарный файл установить его.
+Once you get to the list of downloads, you would need to download the archive specific to your platform, extract the ``oc`` binary and install it.
 
-Чтобы войти в кластер OpenShift, используемый для этого курса, запустите в терминале:
+To login to the OpenShift cluster used for this course run in the terminal:
 
 ``oc login -u developer -p developer``{{execute}}
 
-Вы увидите следующий вывод терминала:
+You should see output similar to:
 
 ```
 Authentication required for https://openshift:6443 (openshift)
 Login successful.
 
-Так как созданных проектов ещё нет, создаем первый при помощи команды:
+You don't have any projects. You can try to create a new project, by running
 
     oc new-project <projectname>
 ```
-Далее задаём пространство имён (namespace):
+
+Next, create a new project namespace:
 
 ``oc new-project myproject``{{execute}}
 
-Следующей командой можно вывести доступные нам проекты:
+You can list all the projects you currently have access to by running:
 
 ``oc get projects``{{execute}}
 
-Проверить пользователя, под которым мы сейчас "залогинились" можно командой:
+Once logged in, you can verify what user you are logged in by running:
 
 ``oc whoami``{{execute}}
 
-Также в целях безопасности важно проверить имя нашего текущего сервера:
+You can verify which server you are logged into by running:
 
 ``oc whoami --show-server``{{execute}}
 
-Аутентификация при момощи внешнего провайдера требует дополнительных действий.
+In the case of an external authentication service being used as the identity provider, the required steps are a bit different.
 
-При использовании команды ``oc login`` командная строка возвращает следующую ошибку:
+If you login using ``oc login`` on the command line you will be presented with an error message similar to:
 
 ```
 Login failed (401 Unauthorized)
@@ -50,12 +51,12 @@ You must obtain an API token by visiting
   https://api.starter-us-east-1.openshift.com/oauth/token/request
 ```
 
-Необходимо пройти по специальной ссылке, если используется отдельный центр аутентификации. Как правило ссылка ведёт на страницу с деталями процедуры аутентификации. Запросы такого типа также могут возвращать электронный сертификат доступа для очередной сессии.
+You would visit the link given, logging in first via the separate authentication service if necessary. You will then be redirected to a page which will give details of the login command to use. This will include an access token to authenticate you for the session.
 
-Даже при условии полного управления учётными записями на стороне OpenShift, можно дополнительно использовать токены. Для этого добавляется ``/oauth/token/request`` для URL доступа к кластеру.
+Even in the case where user authentication is managed by the OpenShift cluster and user credentials are accepted, you can opt to instead use an access token. You can retrieve the command to run by manually entering the ``/oauth/token/request`` path against the URL for the cluster access endpoint.
 
-Если вы уже находитесь в веб-консоле, вы можете найти полную информацию о параметрах входа и скопировать её для терминала в пункте _Copy Login Command_ под именем учетной записи.
+If you are already logged into the web console, you can also retrieve the details of the login command and access token by accessing the _Copy Login Command_ menu option under your login name.
 
  ![Request Access Token](../../assets/introduction/cluster-access-44/02-login-access-token.png)
 
-Вне зависимости от механизма авторизации с использованием команды ``oc login``, время действия логина заканчивается и требуется повторная авторизация. Обычно это период 24 часа.
+Whichever mechanism you use to login from the command line using ``oc login``, the login will periodically expire and you will need to login again. The expiration period is typically 24 hours.

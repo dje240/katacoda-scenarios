@@ -1,10 +1,10 @@
 {
     "icon": "fa-openshift",
-    "title": "Авторизация пользователя",
+    "title": "Logging in to an OpenShift Cluster",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
-    "time": "5-10 минут",
+    "time": "5-10 minutes",
     "backend": {
         "autoUpgrade": true,
         "imageid": "openshift-4-7"
@@ -16,16 +16,16 @@
     },
     "details": {
         "steps": [{
-            "title": "Тема 1 - Использование веб-консоли",
+            "title": "Topic 1 - Logging in Via the Web Console",
             "text": "01-logging-in-via-the-web-console.md"
         }, {
-            "title": "Тема 2 - Использование командной строки",
+            "title": "Topic 2 - Logging in Via the Command Line",
             "text": "02-logging-in-via-the-command-line.md"
         }, {
-            "title": "Тема 3 - Совместная работа над проектом",
+            "title": "Topic 3 - Collaborating with Other Users",
             "text": "03-collaborating-with-other-users.md"
         }, {
-            "title": "Тема 4 - Переключение между разными типами учетных записей",
+            "title": "Topic 4 - Switching Between Accounts",
             "text": "04-switching-between-accounts.md"
         }],
         "intro": {

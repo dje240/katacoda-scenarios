@@ -7,13 +7,9 @@
     "time": "5-10 минут",
     "backend": {
         "autoUpgrade": true,
-        "imageid": "openshift-3-6"
+        "imageid": "openshift-4-7"
     },
-    "environment": {
-        "showdashboard": true,
-        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
-        "uilayout": "terminal-iframe"
-    },
+   
     "details": {
         "steps": [{
             "title": "Тема 1 - Использование веб-консоли",
